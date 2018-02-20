@@ -1,0 +1,14 @@
+noStroke();
+size(800,800);
+fill(#FAEDEF);
+rect(150,250,500,500);
+//roof
+fill(#C16975);
+triangle(100,250,400,50,700,250);
+//windows
+fill(#2AB4D8);
+rect(225,320,100,100);
+rect(475,320,100,100);
+fill(#000000);
+//door
+rect(350,550,100,200);
