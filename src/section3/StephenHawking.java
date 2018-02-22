@@ -6,7 +6,7 @@ import com.sun.speech.freetts.VoiceManager;
 
 public class StephenHawking {
 	
-	private static Object answer;
+	
 
 
 
@@ -23,10 +23,13 @@ public class StephenHawking {
 		
 		// 2. ask the user for a sentence
 	for(int i=0; i<10; i++) {
-		String answer = JOptionPane.showInputDialog("Write a question");
-		JOptionPane.showInputDialog(null, "Answer " + answer);
+		String answer = JOptionPane.showInputDialog("Write a sentence.");
+		// 3. call the speak method below and send it the sentence
+	speak (answer);
+	
 	}
-		// 3. call the speak method below and send it the sentence	
+			
+	
 	}
 
 	
