@@ -40,7 +40,7 @@ public class DragonFight {
 		// 10. If they typed in "kick":
 		if(playerAttack.equalsIgnoreCase("kick")) {
 			Random turtle = new Random();
-			dragonDamage = turtle.nextInt(50);
+			dragonDamage = turtle.nextInt(26);
 			dragonHealth = dragonHealth-dragonDamage;
 		}
 			//-- Find a random number between 0 and 25 and store it in dragonDamage
